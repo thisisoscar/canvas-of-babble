@@ -118,5 +118,5 @@ while running:
     image = pg.transform.scale(image, (screen_width, screen_height))
     screen.blit(image, (0, 0))
     
-    clock.tick(10)
+    clock.tick(5)
     pg.display.flip()
