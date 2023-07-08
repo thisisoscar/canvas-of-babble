@@ -1,2 +1,3 @@
 # canvas of babble
  
+Contains all pixel art that has ever been made, ever will be made, all variations of all pixel art in history yadda yadda yadda. Now you can pirate every version of every pixelated show for free, you just have to be a bit lucky. The most meaningful things I've found are a 3x5 cross, an among us and a pretty cool game of life setup that lasted over 1000 steps. Use the enter key to generate a new image and the arrow keys to cycle through generated images.
