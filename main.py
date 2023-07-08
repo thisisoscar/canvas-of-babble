@@ -61,6 +61,19 @@ while not valid:
     except ValueError:
         print('That was not a valid number')
 
+try:
+    image_pixel_count = image_width * image_height
+    if colour_type == 'b&w':
+        total_images = 2 ** image_pixel_count
+    elif colour_type == 'grey':
+        total_images = 256 ** image_pixel_count
+    elif colour_type == 'full':
+        total_images = 16777216 ** image_pixel_count
+
+    print(f'Total possible images: {total_images:,}')
+except ValueError:
+    print('Total possible images too large to compute')
+
 pg.init()
 screen = pg.display.set_mode((0, 0), pg.FULLSCREEN)
 screen_width, screen_height = screen.get_size()
