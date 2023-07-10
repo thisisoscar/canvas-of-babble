@@ -116,7 +116,7 @@ while not valid:
         
         image_index = int(image_index)
 
-        if image_index < 0 or image_index > total_images:
+        if image_index < 0 or image_index >= total_images:
             raise ValueError
         
         valid = True
